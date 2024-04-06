@@ -1,0 +1,23 @@
+.card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(to right, #ff8a00, #da1b60);
+  color: white;
+}
+
+.card:hover h2 {
+  transform: rotate(180deg);
+}
+
+.card:hover p {
+  transform: rotate(180deg);
+}
